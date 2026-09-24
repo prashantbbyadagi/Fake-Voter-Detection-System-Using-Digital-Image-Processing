@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e293b;
+    --text-color: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
