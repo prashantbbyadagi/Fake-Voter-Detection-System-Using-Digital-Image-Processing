@@ -11,7 +11,7 @@ pipeline {
       steps {
         script {
           def homepage = readFile('src/index.html')
-          if (!homepage.contains('Jenkins B2')) {
+          if (!homepage.contains('Prashanta')) {
             error('Expected project title not found in src/index.html')
           }
 
